@@ -85,14 +85,19 @@ body{
 }
 #objective{
     height:auto;
+    width: auto;
     margin-left: 13%;
-    margin-right: 10%;
+    margin-right: 13%;
+    overflow-wrap: break-word;
+    background-image:linear-gradient(cyan,blue)
+    
 }
 #objective p{
     font-size: 1.5rem;
     font-family: Garamond;
     font-weight: 540;
     font-style: inherit;
+    
 }
 
 #objective p .highlight{
