@@ -30,10 +30,12 @@ body{
     
     color: white;
     text-decoration: none;
+}
+.nav-menu li a{
     transition: color 0.5s, border-bottom 4s;
 }
 
-.horizontal-list a:hover{
+.nav-menu li a:hover{
     color:lightgrey;
     border-bottom: 1px solid white;
 }
@@ -51,4 +53,50 @@ body{
     font-weight: 540;
     margin-bottom:0.5rem;
     font-family:Garamond;
+}
+.social-icons li a i{
+    
+    padding:10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.social-icons li a:hover{
+    box-shadow: 0px 0px 6px 4px ;
+    border-radius: 40%;
+}
+/* About Section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top:-15vh;
+}
+#my-image img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 4px lightgrey;
+}
+#objective{
+    height:auto;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+#objective p{
+    font-size: 1.5rem;
+    font-family: Garamond;
+    font-weight: 540;
+    font-style: inherit;
+}
+
+#objective p .highlight{
+    color: blue;
+    font-weight: bolder;
+    font-size:1.4rem ;
 }
